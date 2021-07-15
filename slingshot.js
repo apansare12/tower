@@ -4,7 +4,7 @@ class slingshot{
             bodyA: bodyA,
             pointB: pointB,
             stiffness: 0.04,
-            length: 25,
+            length: 15,
             
         }
         this.pointB = pointB
@@ -19,7 +19,7 @@ class slingshot{
             var pointB = this.pointB;
             
             strokeWeight(4);
-            stroke(255);
+            stroke("turquoise");
             line(pointA.x, pointA.y, pointB.x, pointB.y);
             
         }

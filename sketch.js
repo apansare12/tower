@@ -82,7 +82,7 @@ function draw() {
   block15.display();
   fill("grey");
   block16.display();
-  
+  slingshotObject.display();
 
 }
 
